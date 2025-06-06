@@ -45,3 +45,23 @@ Since the rubber duck model I had downloaded requires a CC attribution, I create
 # Deploying to GitHub Pages
 
 Since this is a one-time task, I do it manually instead of using GitHub Actions or `gh-pages` npm package.
+
+GitHub Pages run in a subdirectory so a Vite configuration was needed, as well as fetching the 3D model using a relative URL.
+
+# Wrap-up
+
+The app now features all the requirements as per the instructions. Coding the final version of the app took me cca 1,5 hours, including documentation and deployment.
+
+## Biggest blockers
+
+There wasn't any significant blocker on my way. The examples in the MapTiler SDK documentation are great for getting a grasp of a particular feature and are ready to be copied and tweaked.
+
+GitHub Pages running in a subdirectory was a blocker for my initial approach but a quick google for `Vite baseUrl` yielded results in their documentation that I was able to use without problems to fix that.
+
+## Screenshots
+
+Initial version: ![](img/screenshot1.png)
+
+Globe projection: ![](img/screenshot2.png)
+
+Final version: ![](img/screenshot3.png)
