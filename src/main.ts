@@ -11,6 +11,7 @@ const options: MapOptions = {
   style: MapStyle.OUTDOOR,
   center: [15.1707594, 50.7259572],
   zoom: 3,
+  projectionControl: true,
 };
 
 const map = new Map(options);
