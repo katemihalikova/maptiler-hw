@@ -27,3 +27,13 @@ projectionControl: true
 # Time spent so far
 
 The scaffolding and preparing a basic map took me cca 30 minutes. The SDK is well-documented and the documentation is on a very high level.
+
+# Adding a rubber duck 3D model
+
+I started by signing up into sketchfab.com to be able to download 3D models. Then, I followed yet another documentation page. First, a plugin must be installed because 3D is not included in the SDK by default:
+
+```sh
+npm i @maptiler/3d
+```
+
+The I add the code from the documentation, modifying it for my use. It runs just fine without any problems!
