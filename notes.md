@@ -37,3 +37,7 @@ npm i @maptiler/3d
 ```
 
 The I add the code from the documentation, modifying it for my use. It runs just fine without any problems!
+
+# Readme
+
+Since the rubber duck model I had downloaded requires a CC attribution, I created a Readme file for it. And since I already had the file opened, I added other details to it as well. It should include all steps required, starting from a bare repository, up to building a production code.
