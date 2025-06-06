@@ -22,7 +22,7 @@ map.on('ready', async () => {
   const layer3D = new Layer3D('layer3D');
   map.addLayer(layer3D);
 
-  await layer3D.addMeshFromURL('duck', '/rubber_duck.glb', {
+  await layer3D.addMeshFromURL('duck', 'rubber_duck.glb', {
     lngLat: [15.1725188, 50.7348114],
     heading: 325,
     scale: .4,

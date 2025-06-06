@@ -41,3 +41,7 @@ The I add the code from the documentation, modifying it for my use. It runs just
 # Readme
 
 Since the rubber duck model I had downloaded requires a CC attribution, I created a Readme file for it. And since I already had the file opened, I added other details to it as well. It should include all steps required, starting from a bare repository, up to building a production code.
+
+# Deploying to GitHub Pages
+
+Since this is a one-time task, I do it manually instead of using GitHub Actions or `gh-pages` npm package.
