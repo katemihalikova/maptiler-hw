@@ -65,3 +65,17 @@ Initial version: ![](img/screenshot1.png)
 Globe projection: ![](img/screenshot2.png)
 
 Final version: ![](img/screenshot3.png)
+
+# Follow-up task
+
+Using a MapLibre layer for 3D content led me into the MapLibre documentation which is also clearly arranged and contains a lot of examples - and has a dark mode!
+
+The examples section includes two basic approaches to adding a 3D model - using three.js and using babylon.js. After checking monthly npm downloads it seemed that three.js is much more popular so I went with that one.
+
+First I checked that the example works fine with my MapTiler `Map` object instead of the original MapLibre GL one. Since MapTiler builds on top of MapLibre GL, there were no problems with that. The only problem was with types - the original code is written in JavaScript and does not translate to valid strict TypeScript directly. I solved this by using a class for the layer itself.
+
+Then I went through the code of the example and started altering it to my needs. The `render` method includes two variants of the code, I went with the second, shorter one, and added rotation and scale logic on top of that myself; however the longer, more verbose code helped me understand what's going on. I replaced the two example directional lights with one ambient to make it simpler.
+
+In the end, I refactored the example code to be self-contained in the class by moving the configuration into constructor params, and created three layers with three rubber ducks, just like in the original code. The overhaul took me cca 100 minutes of net time including the initial research, 20 more minutes went into writing these notes during the development and the final deployment to GitHub Pages, making the total time spent on the follow-up task cca 2 hours.
+
+Follow-up version: ![](img/screenshot4.png)
